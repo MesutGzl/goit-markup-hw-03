@@ -132,9 +132,6 @@ header a {
   display: flex;
   text-align: center;
 }
-.first-list h3:hover{
-  color: #404bbf;
-}
 .first-list li {
   list-style: none;
   
@@ -195,7 +192,7 @@ header a {
   letter-spacing: 2%;
 }
 
-.portfolio-list{
+.portfolio-list {
   display: flex;
   text-align: center;
   align-items: center; 
