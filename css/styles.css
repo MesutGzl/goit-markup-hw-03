@@ -194,8 +194,7 @@ header a {
 
 .portfolio-list {
   display: flex;
-  text-align: center;
-  align-items: center; 
+  align-items:center ; 
   justify-content: center;
   flex-direction: column;
   padding: 120px 0;
