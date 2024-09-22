@@ -190,13 +190,14 @@ header a {
 }
 .portfolio-list{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .portfolio-list ul{
  display: flex;
- justify-content: flex-start;
+ justify-content: space-between;
  flex-wrap: wrap;
-
 }
 .portfolio-list li {
   list-style: none;
