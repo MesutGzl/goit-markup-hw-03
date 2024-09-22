@@ -199,6 +199,7 @@ header a {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 120px 0;
 }
 .portfolio-list ul{
  display: flex;
