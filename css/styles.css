@@ -150,6 +150,9 @@ header a {
   letter-spacing: 2%;
   color: #434455;
 }
+.img{
+  display:block;
+}
 .team-list{
   background-color: #f4f4fd;
   display: flex;
@@ -228,13 +231,14 @@ header a {
   height: 312px;
   display: flex;
   align-items: center;  
+  padding: 100px 0;
 
 }
 .page-footer{
   display: inline-block;
 }
 .footer a {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   display: inline-block;
 }
 .logo-span2 {
