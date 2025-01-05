@@ -156,8 +156,8 @@ main .second-section-ul {
   list-style-type: none;
 }
 
-.second-section-list {
-  width: calc((100% - 72px)/ 4);
+.second-section-list{
+
 }
 .second-section-h-items {
   font-weight: 500;
@@ -199,7 +199,6 @@ main .third-section-banner {
 
 main .third-section-list {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -254,7 +253,7 @@ main .portfolio-info-div {
 }
 
 main .fourth-section-li {
-  width: calc((100% - 72px) / 3);
+
 }
 
 main .fourth-section-h-items {
