@@ -121,6 +121,7 @@ main .first-section-button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  min-width: 169px;
 }
 
 main .first-section-button:hover {
@@ -131,12 +132,30 @@ main .first-section-button:focus {
   background-color: #404bbf;
 }
 
+main .second-section{
+  padding: 120px 0;
+}
+
+main .visually-hidden{
+  display: none;
+}
+
+main .second-section-ul{
+  display: flex;
+  gap: 24px;
+}
+
+main .second-section-list{
+  width: calc(100%72px)/4;
+
+}
 main .second-section-h3-items {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 main .second-section-p-items {
   line-height: 1.5;
