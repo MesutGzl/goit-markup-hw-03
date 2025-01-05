@@ -5,7 +5,7 @@ body {
 }
 
 img {
-  display: block;
+ display: block;
 }
 
 .container {
@@ -159,7 +159,7 @@ main .second-section-ul {
 .second-section-list {
   width: calc((100% - 72px) / 4);
 }
-.second-section-h3-items {
+.second-section-h-items {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -206,7 +206,7 @@ main .third-section-list {
 main .personal-info-div {
   padding: 32px 0;
 }
-main .third-section-h3-items {
+main .third-section-h-items {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -257,7 +257,7 @@ main .fourth-section-li {
   width: calc((100% - 72px) / 3);
 }
 
-main .fourth-section-h3-items {
+main .fourth-section-h-items {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
