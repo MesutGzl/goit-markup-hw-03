@@ -156,8 +156,8 @@ main .second-section-ul {
   list-style-type: none;
 }
 
-.second-section-list{
-
+.second-section li{
+  width: calc((100% - 72px) / 4);
 }
 .second-section-h-items {
   font-weight: 500;
@@ -245,6 +245,7 @@ main .fourth-section-ul {
 }
 
 main .portfolio-info-div {
+  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -252,7 +253,7 @@ main .portfolio-info-div {
 }
 
 main .fourth-section-li {
-
+  width: calc((100% - 50px) / 3);
 }
 
 main .fourth-section-h-items {
