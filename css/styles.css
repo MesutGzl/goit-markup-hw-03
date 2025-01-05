@@ -221,6 +221,10 @@ main .third-section-p-items {
   text-align: center;
 }
 
+main .fourth-section{
+  padding: 120px 0;
+}
+
 main .fourth-section-banner {
   font-size: 36px;
   line-height: 1.11;
@@ -228,6 +232,25 @@ main .fourth-section-banner {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+main .fourth-section-div ul{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+main .porftolio-info-div{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+main .fourth-section-li{
+  width: calc((100% - 72px) / 3);
 }
 
 main .fourth-section-h3-items {
@@ -247,6 +270,7 @@ main .fourth-section-p-items {
 
 .footer-class {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-class {
@@ -260,6 +284,7 @@ main .fourth-section-p-items {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-span {
@@ -270,4 +295,5 @@ main .fourth-section-p-items {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
