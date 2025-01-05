@@ -8,17 +8,17 @@ img {
   display: block;
 }
 
-.container{
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.header-div{
+.header-div {
   display: flex;
 }
 
-header{
+header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -37,7 +37,6 @@ header nav .header-nav-logo {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-
 }
 header nav .header-nav-logo-span {
   color: #2e2f42;
@@ -51,6 +50,7 @@ header nav .header-nav-items {
   gap: 40px;
 }
 header nav .header-nav-list {
+  font-family: "Roboto";
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -74,7 +74,7 @@ header ul {
 address {
   font-style: normal;
 }
-.address-list{
+.address-list {
   display: flex;
   gap: 40px;
 }
@@ -105,6 +105,7 @@ main .first-section-banner {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
+  margin-left: 310px;
 }
 
 main .first-section-button {
@@ -132,30 +133,30 @@ main .first-section-button:focus {
   background-color: #404bbf;
 }
 
-main .second-section{
+main .second-section {
   padding: 120px 0;
 }
 
-main .visually-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  
+main .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-main .second-section-ul{
+main .second-section-ul {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
-.second-section-list{
+.second-section-list {
   width: calc((100% - 72px) / 4);
 }
 .second-section-h3-items {
@@ -172,7 +173,7 @@ main .second-section-p-items {
   font-size: 16px;
 }
 
-main .third-section{
+main .third-section {
   padding: 120px 0;
 }
 
@@ -180,9 +181,10 @@ main .third-section {
   background-color: #f4f4fd;
 }
 
-main .third-section-ul{
+main .third-section-ul {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 main .third-section-banner {
@@ -201,7 +203,7 @@ main .third-section-list {
   border-radius: 0px 0px 4px 4px;
 }
 
-main .personal-info-div{
+main .personal-info-div {
   padding: 32px 0;
 }
 main .third-section-h3-items {
@@ -221,7 +223,7 @@ main .third-section-p-items {
   text-align: center;
 }
 
-main .fourth-section{
+main .fourth-section {
   padding: 120px 0;
 }
 
@@ -235,21 +237,23 @@ main .fourth-section-banner {
   margin-bottom: 72px;
 }
 
-main .fourth-section-ul{
+main .fourth-section-ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style-type: none;
 }
 
-main .portfolio-info-div{
+main .portfolio-info-div {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+
 }
 
-main .fourth-section-li{
+main .fourth-section-li {
   width: calc((100% - 72px) / 3);
 }
 
@@ -267,8 +271,6 @@ main .fourth-section-p-items {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-
 
 .footer-class {
   background-color: #2e2f42;
@@ -288,10 +290,11 @@ main .fourth-section-p-items {
   color: #4d5ae5;
   margin-bottom: 16px;
   display: inline-block;
+  text-decoration: none;
 }
 
 .footer-span {
-  color: #2e2f42;
+  color: #ffffff;
 }
 
 .footer-p-item {
@@ -299,4 +302,5 @@ main .fourth-section-p-items {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  
 }
