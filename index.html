@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
     <title>Second HTML Homework</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +18,8 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header-class">
+      <div class="container header-div">
       <nav class="nav-bar-section">
         <a href="./index.html" class="header-nav-logo"
           >web<span class="header-nav-logo-span">Studio</span></a
@@ -36,6 +44,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <main>
       <!-- First Section Start -->
@@ -194,7 +203,9 @@
     </main>
 
     <footer class="footer-class">
-      <a class="footer-logo" href="./index.html">web<span class="footer-span">Studio</span></a>
+      <a class="footer-logo" href="./index.html"
+        >web<span class="footer-span">Studio</span></a
+      >
       <p class="footer-p-item">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
